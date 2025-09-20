@@ -1,0 +1,633 @@
+{
+  "event": {
+    "name": "Dotes World 2026",
+    "hashtag": "#OMR2027",
+    "dates": {
+      "start": "2025-03-15",
+      "end": "2025-03-17",
+      "display": "March 15-17, 2025"
+    },
+    "location": {
+      "city": "San Francisco",
+      "state": "CA",
+      "venue": "Moscone Center",
+      "display": "San Francisco, CA"
+    },
+    "tagline": "DAS FESTIVAL FÜR DAS DIGITALE UNIVERSUM!",
+    "description": "The biggest international event bringing together the brightest minds in technology, innovation, and digital creativity."
+  },
+  "navigation": {
+    "logo": "Dotes World 2025",
+    "links": [
+      {
+        "name": "Home",
+        "href": "/",
+        "type": "internal"
+      },
+      {
+        "name": "About",
+        "href": "/#about",
+        "type": "internal"
+      },
+      {
+        "name": "Schedule",
+        "href": "/schedule",
+        "type": "internal"
+      },
+      {
+        "name": "Speakers",
+        "href": "/speakers",
+        "type": "internal"
+      },
+      {
+        "name": "Venue",
+        "href": "/venue",
+        "type": "internal"
+      },
+      {
+        "name": "Sponsors",
+        "href": "/sponsors",
+        "type": "internal"
+      },
+      {
+        "name": "Register",
+        "href": "/register",
+        "type": "cta",
+        "highlighted": true
+      }
+    ]
+  },
+  "hero": {
+    "headline": {
+      "main": "#DOTE2829  INNOVATION MARK!",
+      "subtitle": "25 MAY ,San Francisco!",
+      "animation": {
+        "duration": 0.9,
+        "delay": 0.2
+      }
+    },
+    "background": {
+      "type": "video",
+      "video": {
+        "src": "/hero-video.mp4",
+        "poster": "/images/hero-poster.jpg",
+        "fallback": "gradient"
+      },
+      "gradient": {
+        "overlay": "bg-primary/40",
+        "darkOverlay": "bg-black/30"
+      },
+      "animatedElements": {
+        "count": 20,
+        "type": "circles",
+        "animation": {
+          "duration": 3,
+          "scale": [
+            1,
+            1.5,
+            1
+          ],
+          "opacity": [
+            0.2,
+            0.5,
+            0.2
+          ]
+        }
+      }
+    },
+    "cta": {
+      "buttons": [
+        {
+          "text": "Buy Ticket",
+          "href": "/register",
+          "type": "primary",
+          "style": "bg-primary text-neutral-light"
+        },
+        {
+          "text": "Become a Partner",
+          "href": "/partners",
+          "type": "secondary",
+          "style": "border-2 border-neutral-light text-neutral-light"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamily": "JustSansOutline, Arial, sans-serif",
+      "fontWeight": 300,
+      "letterSpacing": "0.1em"
+    }
+  },
+  "about": {
+    "eyebrow": "About the Event",
+    "title": "Why Dotes World 2025?",
+    "content": [
+      "Dotes World 2025 is our biggest international event yet, bringing together the brightest minds in technology, innovation, and digital creativity.",
+      "Join global leaders, innovators, and creators in San Francisco for an unforgettable experience that will shape the future of the digital universe.",
+      "A full day of talks, networking, and immersive experiences designed to inspire, educate, and connect the tech community like never before."
+    ],
+    "cta": {
+      "text": "Explore Schedule",
+      "href": "/schedule",
+      "icon": "arrow-right"
+    },
+    "image": {
+      "type": "illustration",
+      "placeholder": {
+        "icon": "users",
+        "text": "/storage/cube.jpg"
+      },
+      "decorativeElements": [
+        {
+          "type": "circle",
+          "position": "top-right",
+          "color": "purple-200"
+        },
+        {
+          "type": "circle",
+          "position": "bottom-left",
+          "color": "blue-200"
+        }
+      ]
+    }
+  },
+  "speakers": {
+    "preview": {
+      "eyebrow": "Meet the Experts",
+      "title": "Featured Speakers",
+      "description": "Learn from industry leaders and pioneers who are shaping the future of technology.",
+      "cta": {
+        "text": "See All Speakers",
+        "href": "/speakers"
+      }
+    },
+    "featured": [
+      {
+        "id": 1,
+        "name": "Dr. Sarah Chen",
+        "role": "Chief AI Officer",
+        "expertise": "Artificial Intelligence & Machine Learning",
+        "image": "/api/placeholder/150/150",
+        "bio": "Leading expert in AI and machine learning with over 15 years of experience in developing cutting-edge technologies.",
+        "company": "TechCorp AI",
+        "social": {
+          "linkedin": "#",
+          "twitter": "#"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Marcus Rodriguez",
+        "role": "Senior Software Architect",
+        "expertise": "Scalable Systems & Cloud Architecture",
+        "image": "/api/placeholder/150/150",
+        "bio": "Architect of large-scale distributed systems with expertise in cloud computing and microservices.",
+        "company": "CloudScale Inc",
+        "social": {
+          "linkedin": "#",
+          "twitter": "#"
+        }
+      },
+      {
+        "id": 3,
+        "name": "Elena Volkov",
+        "role": "Blockchain Lead",
+        "expertise": "Distributed Systems & Web3",
+        "image": "/api/placeholder/150/150",
+        "bio": "Pioneer in blockchain technology and decentralized systems, leading Web3 innovation.",
+        "company": "BlockChain Pro",
+        "social": {
+          "linkedin": "#",
+          "twitter": "#"
+        }
+      },
+      {
+        "id": 4,
+        "name": "James Liu",
+        "role": "UX Design Director",
+        "expertise": "Metaverse & Immersive Experiences",
+        "image": "/api/placeholder/150/150",
+        "bio": "Award-winning designer creating immersive experiences for the metaverse and beyond.",
+        "company": "MetaDesign Studio",
+        "social": {
+          "linkedin": "#",
+          "website": "#"
+        }
+      },
+      {
+        "id": 5,
+        "name": "Priya Sharma",
+        "role": "Data Science Manager",
+        "expertise": "Big Data & Analytics",
+        "image": "/api/placeholder/150/150",
+        "bio": "Data scientist turning big data into actionable insights for Fortune 500 companies.",
+        "company": "DataMinds Analytics",
+        "social": {
+          "linkedin": "#",
+          "twitter": "#"
+        }
+      },
+      {
+        "id": 6,
+        "name": "David Kim",
+        "role": "Cybersecurity Expert",
+        "expertise": "Digital Security & Privacy",
+        "image": "/api/placeholder/150/150",
+        "bio": "Cybersecurity specialist protecting digital assets and privacy in the connected world.",
+        "company": "SecureNet Systems",
+        "social": {
+          "linkedin": "#",
+          "twitter": "#"
+        }
+      }
+    ]
+  },
+  "schedule": {
+    "preview": {
+      "eyebrow": "What's Happening",
+      "title": "Event Schedule",
+      "description": "Three days of inspiring talks, workshops, and networking opportunities.",
+      "cta": {
+        "text": "View Full Schedule",
+        "href": "/schedule"
+      }
+    },
+    "days": [
+      {
+        "date": "2025-03-15",
+        "name": "Day 1",
+        "theme": "Innovation & Technology",
+        "sessions": [
+          {
+            "time": "09:00 AM - 09:30 AM",
+            "title": "Opening Keynote: The Future of Digital Innovation",
+            "speaker": "Dr. Sarah Chen",
+            "description": "Exploring emerging technologies and their impact on society."
+          },
+          {
+            "time": "10:00 AM - 10:45 AM",
+            "title": "AI Revolution: Machine Learning in Practice",
+            "speaker": "Dr. Sarah Chen",
+            "description": "Real-world applications of AI and machine learning across industries."
+          },
+          {
+            "time": "11:00 AM - 11:45 AM",
+            "title": "Building Scalable Cloud Architectures",
+            "speaker": "Marcus Rodriguez",
+            "description": "Best practices for designing and implementing cloud-native solutions."
+          }
+        ]
+      }
+    ],
+    "callToAction": {
+      "title": "Ready to Join Us?",
+      "description": "Don't miss out on this incredible opportunity to learn and network",
+      "button": {
+        "text": "Register Now",
+        "href": "/register"
+      }
+    }
+  },
+  "sponsors": {
+    "title": "Our Sponsors & Partners",
+    "description": "We're proud to partner with industry leaders who make this event possible. Their support enables us to bring you the best content and networking opportunities.",
+    "cta": {
+      "primary": {
+        "text": "View Packages",
+        "href": "/sponsors#sponsorship-packages"
+      },
+      "secondary": {
+        "text": "Contact Us",
+        "href": "/contact"
+      }
+    },
+    "packages": [
+      {
+        "name": "Platinum Sponsor",
+        "price": "$25,000",
+        "features": [
+          "Premium logo placement on all materials",
+          "Main stage speaking opportunity",
+          "Exhibition booth (premium location)",
+          "VIP networking access",
+          "Social media promotion",
+          "Attendee list access"
+        ],
+        "highlighted": true
+      },
+      {
+        "name": "Gold Sponsor",
+        "price": "$15,000",
+        "features": [
+          "Logo placement on website and materials",
+          "Breakout session speaking opportunity",
+          "Exhibition booth",
+          "Networking event access",
+          "Social media mentions"
+        ]
+      },
+      {
+        "name": "Silver Sponsor",
+        "price": "$8,000",
+        "features": [
+          "Logo placement on website",
+          "Exhibition booth (standard location)",
+          "Networking event access"
+        ]
+      },
+      {
+        "name": "Bronze Sponsor",
+        "price": "$3,000",
+        "features": [
+          "Logo placement on website",
+          "Networking event access"
+        ]
+      }
+    ],
+    "currentSponsors": [
+      {
+        "name": "TechCorp",
+        "tier": "platinum",
+        "logo": "https://via.placeholder.com/200x100/4F46E5/FFFFFF?text=TechCorp",
+        "website": "#"
+      },
+      {
+        "name": "InnovateLabs",
+        "tier": "gold",
+        "logo": "https://via.placeholder.com/200x100/10B981/FFFFFF?text=InnovateLabs",
+        "website": "#"
+      },
+      {
+        "name": "CloudFirst",
+        "tier": "gold",
+        "logo": "https://via.placeholder.com/200x100/F59E0B/FFFFFF?text=CloudFirst",
+        "website": "#"
+      },
+      {
+        "name": "DataMinds",
+        "tier": "silver",
+        "logo": "https://via.placeholder.com/200x100/EF4444/FFFFFF?text=DataMinds",
+        "website": "#"
+      }
+    ]
+  },
+  "venue": {
+    "name": "Moscone Center",
+    "address": {
+      "street": "747 Howard Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94103",
+      "country": "USA"
+    },
+    "description": "State-of-the-art convention center in the heart of San Francisco, offering world-class facilities and easy access to public transportation.",
+    "features": [
+      {
+        "icon": "location",
+        "title": "Prime Location",
+        "description": "Located in downtown San Francisco with easy access to hotels and restaurants"
+      },
+      {
+        "icon": "parking",
+        "title": "Parking Available",
+        "description": "Multiple parking options within walking distance of the venue"
+      },
+      {
+        "icon": "transport",
+        "title": "Public Transportation",
+        "description": "Easy access to BART, Muni, and other public transportation options"
+      }
+    ],
+    "cta": {
+      "text": "Get Directions",
+      "href": "/venue"
+    }
+  },
+  "registration": {
+    "title": "Secure Your Spot",
+    "subtitle": "Join us at Dotes World 2025",
+    "description": "Event date + location reminder",
+    "ticketTypes": [
+      {
+        "id": "early-bird",
+        "name": "Early Bird",
+        "price": 299,
+        "currency": "USD",
+        "features": [
+          "Access to all sessions",
+          "Networking events",
+          "Conference materials",
+          "Lunch and refreshments"
+        ],
+        "deadline": "2025-02-15",
+        "popular": false
+      },
+      {
+        "id": "regular",
+        "name": "Regular",
+        "price": 399,
+        "currency": "USD",
+        "features": [
+          "Access to all sessions",
+          "Networking events",
+          "Conference materials",
+          "Lunch and refreshments"
+        ],
+        "deadline": "2025-03-10",
+        "popular": true
+      },
+      {
+        "id": "student",
+        "name": "Student",
+        "price": 149,
+        "currency": "USD",
+        "features": [
+          "Access to all sessions",
+          "Student networking events",
+          "Career development workshops",
+          "Conference materials"
+        ],
+        "deadline": "2025-03-10",
+        "popular": false
+      },
+      {
+        "id": "group",
+        "name": "Group (5+ people)",
+        "price": 349,
+        "currency": "USD",
+        "features": [
+          "Discounted group rates",
+          "Team networking events",
+          "Group coordination support",
+          "All regular features"
+        ],
+        "deadline": "2025-03-10",
+        "popular": false
+      }
+    ]
+  },
+  "footer": {
+    "company": {
+      "name": "Dotes World 2025",
+      "description": "The biggest international event bringing together the brightest minds in technology, innovation, and digital creativity."
+    },
+    "links": [
+      {
+        "title": "Event",
+        "items": [
+          {
+            "name": "About",
+            "href": "/about"
+          },
+          {
+            "name": "Schedule",
+            "href": "/schedule"
+          },
+          {
+            "name": "Speakers",
+            "href": "/speakers"
+          },
+          {
+            "name": "Venue",
+            "href": "/venue"
+          }
+        ]
+      },
+      {
+        "title": "Participate",
+        "items": [
+          {
+            "name": "Register",
+            "href": "/register"
+          },
+          {
+            "name": "Become a Sponsor",
+            "href": "/sponsors"
+          },
+          {
+            "name": "Submit Talk",
+            "href": "/submit"
+          },
+          {
+            "name": "Volunteer",
+            "href": "/volunteer"
+          }
+        ]
+      },
+      {
+        "title": "Connect",
+        "items": [
+          {
+            "name": "Contact",
+            "href": "/contact"
+          },
+          {
+            "name": "Newsletter",
+            "href": "/newsletter"
+          },
+          {
+            "name": "Community",
+            "href": "/community"
+          },
+          {
+            "name": "Press Kit",
+            "href": "/press"
+          }
+        ]
+      }
+    ],
+    "social": {
+      "twitter": "#",
+      "linkedin": "#",
+      "facebook": "#",
+      "instagram": "#",
+      "youtube": "#"
+    },
+    "legal": [
+      {
+        "name": "Privacy Policy",
+        "href": "/privacy"
+      },
+      {
+        "name": "Terms of Service",
+        "href": "/terms"
+      },
+      {
+        "name": "Code of Conduct",
+        "href": "/conduct"
+      }
+    ]
+  },
+  "theme": {
+    "colors": {
+      "primary": "#7C3AED",
+      "secondary": "#EC4899",
+      "neutral": {
+        "dark": "#111827",
+        "medium": "#374151",
+        "light": "#F9FAFB"
+      },
+      "support": {
+        "success": "#10B981",
+        "warning": "#F59E0B",
+        "error": "#EF4444",
+        "info": "#3B82F6"
+      }
+    },
+    "typography": {
+      "fontFamily": {
+        "primary": "Inter, system-ui, sans-serif",
+        "secondary": "Arial, sans-serif",
+        "outline": "JustSansOutline, Arial, sans-serif"
+      },
+      "fontSize": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.25rem",
+        "2xl": "1.5rem",
+        "3xl": "1.875rem",
+        "4xl": "2.25rem",
+        "5xl": "3rem",
+        "6xl": "3.75rem",
+        "7xl": "4.5rem",
+        "8xl": "6rem"
+      }
+    },
+    "animations": {
+      "duration": {
+        "fast": "0.3s",
+        "normal": "0.5s",
+        "slow": "0.8s"
+      },
+      "easing": "ease-in-out"
+    }
+  },
+  "seo": {
+    "title": "Dotes World 2025 - Technology & Innovation Festival",
+    "description": "Join the biggest international tech event in San Francisco. Learn from industry leaders, network with innovators, and shape the future of digital creativity.",
+    "keywords": [
+      "technology conference",
+      "innovation festival",
+      "San Francisco tech event",
+      "digital creativity",
+      "AI conference",
+      "blockchain summit",
+      "tech networking",
+      "startup event"
+    ],
+    "openGraph": {
+      "title": "Dotes World 2025 - Technology & Innovation Festival",
+      "description": "Join the biggest international tech event in San Francisco",
+      "image": "/images/og-image.jpg",
+      "url": "https://dotesworld2025.com",
+      "type": "website"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Dotes World 2025 - Technology & Innovation Festival",
+      "description": "Join the biggest international tech event in San Francisco",
+      "image": "/images/twitter-card.jpg"
+    }
+  }
+}
