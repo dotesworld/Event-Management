@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+/* Custom Outline Font Definitions */
+@font-face {
+  font-family: "JustSansOutline";
+  src: url("/fonts/JUST Sans Outline Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JustSansOutline";
+  src: url("/fonts/JUST Sans Outline Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JustSansOutline";
+  src: url("/fonts/JUST Sans Outline Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --background: #111827; /* Charcoal Black */
+  --foreground: #F9FAFB; /* Soft White */
+  --primary: #7C3AED; /* Neon Purple */
+  --secondary: #EC4899; /* Vibrant Pink */
+  --accent: #EC4899; /* Vibrant Pink */
+  --neutral-dark: #111827; /* Charcoal Black */
+  --neutral-medium: #374151; /* Slate Gray */
+  --neutral-light: #F9FAFB; /* Soft White */
+  --success: #10B981; /* Success Green */
+  --warning: #F59E0B; /* Warning Amber */
+  --error: #EF4444; /* Error Red */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-neutral-dark: var(--neutral-dark);
+  --color-neutral-medium: var(--neutral-medium);
+  --color-neutral-light: var(--neutral-light);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-error: var(--error);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #111827; /* Charcoal Black */
+    --foreground: #F9FAFB; /* Soft White */
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Open Sans", Helvetica, sans-serif;
+}
